@@ -4,11 +4,11 @@
   box-sizing:border-box
 }
 
-header{
-  background-color: black;
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 40px;
+.testa{
+  position: fixed;
+  top: 0;
+  right: 50px;
+  z-index: 999;
 }
 
 .speaker{
@@ -90,6 +90,10 @@ justify-content: center;
 
 .icons ul li i:hover{
   color: green;
+}
+
+.green {
+color: green;
 }
 
 .text{
