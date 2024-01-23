@@ -4,6 +4,23 @@
   box-sizing:border-box
 }
 
+header{
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+.speaker{
+  color: white;
+  background-color: rgb(29, 27, 27);
+}
+
+.enlarge{
+  color: white;
+  background-color: rgb(29, 27, 27);
+}
+
 main{
   background-color: rgb(0, 0, 0);
   height: calc(100vh - 100px);
@@ -32,11 +49,11 @@ section{
 }
 
 footer{
-  background-color: lightgrey;
+  background-color: rgb(75, 69, 69);
 }
 
 .flex-footer{
-  height: 50px;
+  height: 100px;
   align-items: center;
   width: 100%;
   display: flex;
@@ -48,6 +65,45 @@ footer i{
   text-align: center;
   padding: 5px;
   font-size: 2rem;
-  padding-top: 50px;
+  color: white;
 }
 
+ul{
+  display:flex
+}
+
+li{
+  display: flex;
+  flex-direction: column;
+}
+
+footer span{
+font-size: 0.5rem;
+color:white;
+display: flex;
+justify-content: center;
+}
+
+.icons ul li i:hover{
+  color: green;
+}
+
+.text{
+  background-color: rgb(29, 27, 27);
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+footer .text .testo{
+  height: 100px;
+  width: 100px;
+}
+
+.testo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
