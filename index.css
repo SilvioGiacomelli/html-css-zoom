@@ -32,12 +32,22 @@ section{
 }
 
 footer{
-  background-color: red;
-  height: 100px;
-
+  background-color: lightgrey;
 }
 
-.sotto{
+.flex-footer{
+  height: 50px;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   
+}
+
+footer i{
+  text-align: center;
+  padding: 5px;
+  font-size: 2rem;
+  padding-top: 50px;
 }
 
