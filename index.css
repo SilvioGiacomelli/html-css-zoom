@@ -9,6 +9,7 @@
   top: 0;
   right: 50px;
   z-index: 999;
+  display: flex;
 }
 
 .speaker{
